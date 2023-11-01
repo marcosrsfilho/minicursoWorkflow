@@ -20,4 +20,3 @@ jobs:
       
       - name: Autenticar
         run: python autenticacao.py ${{ secrets.USER_NAME }} ${{ secrets.PASSWORD }}
-
